@@ -6,17 +6,28 @@
 //  Copyright © 2017年 lawn. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "SWAppDelegate.h"
+#import "SWHomeViewController.h"
 
-@interface AppDelegate ()
+@interface SWAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation SWAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    SWHomeViewController *homeCtrl = [[SWHomeViewController alloc] init];
+    UINavigationController *navCtrl = [[UINavigationController alloc] initWithRootViewController:homeCtrl];
+    self.window.rootViewController = navCtrl;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

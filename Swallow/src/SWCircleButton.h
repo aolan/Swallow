@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SWCircleButton.h
 //  Swallow
 //
 //  Created by lawn.cao on 2017/10/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SWCircleButton : UIButton
 
 @end
-
