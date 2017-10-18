@@ -27,6 +27,9 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    int a = arc4random() % 10;
+    NSLog(@"========%d", a);
 }
 
 - (void)testPerformanceExample {

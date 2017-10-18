@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		962BB19CC45C81698CD7BE2F /* libPods-SwallowUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C16F8F2DC88C0C147370508 /* libPods-SwallowUITests.a */; };
 		99DD40631F97749B00BF595B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DD40611F97749B00BF595B /* Main.storyboard */; };
 		99DD40651F97749B00BF595B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99DD40641F97749B00BF595B /* Assets.xcassets */; };
 		99DD40681F97749B00BF595B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DD40661F97749B00BF595B /* LaunchScreen.storyboard */; };
@@ -16,6 +17,11 @@
 		99DD40971F97771800BF595B /* SWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DD40911F97771700BF595B /* SWAppDelegate.m */; };
 		99DD40981F97771800BF595B /* SWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DD40941F97771800BF595B /* SWHomeViewController.m */; };
 		99DD40991F97771800BF595B /* SWCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DD40951F97771800BF595B /* SWCircleButton.m */; };
+		99DD409D1F9782A600BF595B /* SWAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DD409C1F9782A600BF595B /* SWAudioPlayer.m */; };
+		99DD40A41F98875200BF595B /* SWFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DD40A31F98875200BF595B /* SWFileManager.m */; };
+		99DD40AD1F98C74400BF595B /* SWDashboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DD40AC1F98C74400BF595B /* SWDashboard.m */; };
+		9D6E6B772D32FD067946D86B /* libPods-SwallowTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEAC9A0B51DA6661F629907 /* libPods-SwallowTests.a */; };
+		D2C1277EDDA82A956BE9548E /* libPods-Swallow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AEA294AE5AB0FAC9BF59805 /* libPods-Swallow.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AEA294AE5AB0FAC9BF59805 /* libPods-Swallow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Swallow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EAA3A2042D39A3B05D3217 /* Pods-SwallowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwallowUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwallowUITests/Pods-SwallowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		556EA3ED8C5087F2D46EDC4E /* Pods-SwallowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwallowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwallowTests/Pods-SwallowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5705F0B65E9C58DE473C9BD0 /* Pods-SwallowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwallowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwallowTests/Pods-SwallowTests.release.xcconfig"; sourceTree = "<group>"; };
+		7C16F8F2DC88C0C147370508 /* libPods-SwallowUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwallowUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85361ACCDBAF7D5F453B0864 /* Pods-Swallow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swallow.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swallow/Pods-Swallow.release.xcconfig"; sourceTree = "<group>"; };
+		8904D52B2CF04E093C74EA08 /* Pods-Swallow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swallow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swallow/Pods-Swallow.debug.xcconfig"; sourceTree = "<group>"; };
 		99DD40581F97749B00BF595B /* Swallow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swallow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DD40621F97749B00BF595B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99DD40641F97749B00BF595B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +67,17 @@
 		99DD40941F97771800BF595B /* SWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWHomeViewController.m; sourceTree = "<group>"; };
 		99DD40951F97771800BF595B /* SWCircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCircleButton.m; sourceTree = "<group>"; };
 		99DD40961F97771800BF595B /* SWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWHomeViewController.h; sourceTree = "<group>"; };
+		99DD409A1F977AB200BF595B /* Swallow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swallow-Prefix.pch"; sourceTree = "<group>"; };
+		99DD409B1F9782A600BF595B /* SWAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWAudioPlayer.h; sourceTree = "<group>"; };
+		99DD409C1F9782A600BF595B /* SWAudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWAudioPlayer.m; sourceTree = "<group>"; };
+		99DD40A01F97888A00BF595B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		99DD40A21F98875200BF595B /* SWFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWFileManager.h; sourceTree = "<group>"; };
+		99DD40A31F98875200BF595B /* SWFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWFileManager.m; sourceTree = "<group>"; };
+		99DD40AA1F9888C600BF595B /* Swallow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swallow.entitlements; sourceTree = "<group>"; };
+		99DD40AB1F98C74400BF595B /* SWDashboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWDashboard.h; sourceTree = "<group>"; };
+		99DD40AC1F98C74400BF595B /* SWDashboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWDashboard.m; sourceTree = "<group>"; };
+		A43D1CB14DA6BDF598664ED0 /* Pods-SwallowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwallowUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwallowUITests/Pods-SwallowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCEAC9A0B51DA6661F629907 /* libPods-SwallowTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwallowTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C1277EDDA82A956BE9548E /* libPods-Swallow.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D6E6B772D32FD067946D86B /* libPods-SwallowTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +101,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962BB19CC45C81698CD7BE2F /* libPods-SwallowUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5100242793BD660A721B80BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8904D52B2CF04E093C74EA08 /* Pods-Swallow.debug.xcconfig */,
+				85361ACCDBAF7D5F453B0864 /* Pods-Swallow.release.xcconfig */,
+				556EA3ED8C5087F2D46EDC4E /* Pods-SwallowTests.debug.xcconfig */,
+				5705F0B65E9C58DE473C9BD0 /* Pods-SwallowTests.release.xcconfig */,
+				A43D1CB14DA6BDF598664ED0 /* Pods-SwallowUITests.debug.xcconfig */,
+				38EAA3A2042D39A3B05D3217 /* Pods-SwallowUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		99DD404F1F97749B00BF595B = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +128,8 @@
 				99DD40731F97749B00BF595B /* SwallowTests */,
 				99DD407E1F97749B00BF595B /* SwallowUITests */,
 				99DD40591F97749B00BF595B /* Products */,
+				5100242793BD660A721B80BC /* Pods */,
+				BB2AF4252AEB3544BB1333C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +146,14 @@
 		99DD405A1F97749B00BF595B /* Swallow */ = {
 			isa = PBXGroup;
 			children = (
+				99DD40AA1F9888C600BF595B /* Swallow.entitlements */,
 				99DD40901F97770200BF595B /* src */,
 				99DD40611F97749B00BF595B /* Main.storyboard */,
 				99DD40641F97749B00BF595B /* Assets.xcassets */,
 				99DD40661F97749B00BF595B /* LaunchScreen.storyboard */,
 				99DD40691F97749B00BF595B /* Info.plist */,
 				99DD406A1F97749B00BF595B /* main.m */,
+				99DD409A1F977AB200BF595B /* Swallow-Prefix.pch */,
 			);
 			path = Swallow;
 			sourceTree = "<group>";
@@ -141,8 +185,25 @@
 				99DD40951F97771800BF595B /* SWCircleButton.m */,
 				99DD40961F97771800BF595B /* SWHomeViewController.h */,
 				99DD40941F97771800BF595B /* SWHomeViewController.m */,
+				99DD40AB1F98C74400BF595B /* SWDashboard.h */,
+				99DD40AC1F98C74400BF595B /* SWDashboard.m */,
+				99DD409B1F9782A600BF595B /* SWAudioPlayer.h */,
+				99DD409C1F9782A600BF595B /* SWAudioPlayer.m */,
+				99DD40A21F98875200BF595B /* SWFileManager.h */,
+				99DD40A31F98875200BF595B /* SWFileManager.m */,
 			);
 			path = src;
+			sourceTree = "<group>";
+		};
+		BB2AF4252AEB3544BB1333C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99DD40A01F97888A00BF595B /* AVFoundation.framework */,
+				0AEA294AE5AB0FAC9BF59805 /* libPods-Swallow.a */,
+				BCEAC9A0B51DA6661F629907 /* libPods-SwallowTests.a */,
+				7C16F8F2DC88C0C147370508 /* libPods-SwallowUITests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99DD40841F97749B00BF595B /* Build configuration list for PBXNativeTarget "Swallow" */;
 			buildPhases = (
+				49B9A1DD22CA7A0938276397 /* [CP] Check Pods Manifest.lock */,
 				99DD40541F97749B00BF595B /* Sources */,
 				99DD40551F97749B00BF595B /* Frameworks */,
 				99DD40561F97749B00BF595B /* Resources */,
+				7CDD71587D2C9B88644CEC53 /* [CP] Embed Pods Frameworks */,
+				C6E759A58F3F3774A6CB2B2C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99DD40871F97749B00BF595B /* Build configuration list for PBXNativeTarget "SwallowTests" */;
 			buildPhases = (
+				61F06DB9874C8167D64FA524 /* [CP] Check Pods Manifest.lock */,
 				99DD406C1F97749B00BF595B /* Sources */,
 				99DD406D1F97749B00BF595B /* Frameworks */,
 				99DD406E1F97749B00BF595B /* Resources */,
+				37F03B16BD235FFB7FE5CFBE /* [CP] Embed Pods Frameworks */,
+				7403C44A82B49E39355DB664 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99DD408A1F97749B00BF595B /* Build configuration list for PBXNativeTarget "SwallowUITests" */;
 			buildPhases = (
+				1759582DF5502CA972D4F6B9 /* [CP] Check Pods Manifest.lock */,
 				99DD40771F97749B00BF595B /* Sources */,
 				99DD40781F97749B00BF595B /* Frameworks */,
 				99DD40791F97749B00BF595B /* Resources */,
+				3DA46A2B16C4BC572B4E23A1 /* [CP] Embed Pods Frameworks */,
+				04869B1CD461699ED54BC96A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +283,14 @@
 					99DD40571F97749B00BF595B = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
 					};
 					99DD406F1F97749B00BF595B = {
 						CreatedOnToolsVersion = 9.0;
@@ -273,6 +351,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04869B1CD461699ED54BC96A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwallowUITests/Pods-SwallowUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1759582DF5502CA972D4F6B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		37F03B16BD235FFB7FE5CFBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwallowTests/Pods-SwallowTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DA46A2B16C4BC572B4E23A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwallowUITests/Pods-SwallowUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49B9A1DD22CA7A0938276397 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		61F06DB9874C8167D64FA524 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7403C44A82B49E39355DB664 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwallowTests/Pods-SwallowTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CDD71587D2C9B88644CEC53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swallow/Pods-Swallow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6E759A58F3F3774A6CB2B2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swallow/Pods-Swallow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		99DD40541F97749B00BF595B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -281,7 +497,10 @@
 				99DD40971F97771800BF595B /* SWAppDelegate.m in Sources */,
 				99DD406B1F97749B00BF595B /* main.m in Sources */,
 				99DD40981F97771800BF595B /* SWHomeViewController.m in Sources */,
+				99DD409D1F9782A600BF595B /* SWAudioPlayer.m in Sources */,
 				99DD40991F97771800BF595B /* SWCircleButton.m in Sources */,
+				99DD40A41F98875200BF595B /* SWFileManager.m in Sources */,
+				99DD40AD1F98C74400BF595B /* SWDashboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,10 +661,12 @@
 		};
 		99DD40851F97749B00BF595B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8904D52B2CF04E093C74EA08 /* Pods-Swallow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7FC6DE667X;
+				GCC_PREFIX_HEADER = "${PROJECT_DIR}/Swallow/Swallow-Prefix.pch";
 				INFOPLIST_FILE = Swallow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lawn.ARHouse;
@@ -456,10 +677,12 @@
 		};
 		99DD40861F97749B00BF595B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85361ACCDBAF7D5F453B0864 /* Pods-Swallow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7FC6DE667X;
+				GCC_PREFIX_HEADER = "${PROJECT_DIR}/Swallow/Swallow-Prefix.pch";
 				INFOPLIST_FILE = Swallow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lawn.ARHouse;
@@ -470,6 +693,7 @@
 		};
 		99DD40881F97749B00BF595B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 556EA3ED8C5087F2D46EDC4E /* Pods-SwallowTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +708,7 @@
 		};
 		99DD40891F97749B00BF595B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5705F0B65E9C58DE473C9BD0 /* Pods-SwallowTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -498,6 +723,7 @@
 		};
 		99DD408B1F97749B00BF595B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43D1CB14DA6BDF598664ED0 /* Pods-SwallowUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwallowUITests/Info.plist;
@@ -511,6 +737,7 @@
 		};
 		99DD408C1F97749B00BF595B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38EAA3A2042D39A3B05D3217 /* Pods-SwallowUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwallowUITests/Info.plist;

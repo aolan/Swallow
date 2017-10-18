@@ -8,6 +8,7 @@
 
 #import "SWAppDelegate.h"
 #import "SWHomeViewController.h"
+#import "SWFileManager.h"
 
 @interface SWAppDelegate ()
 
@@ -16,9 +17,9 @@
 @implementation SWAppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     
@@ -31,10 +32,23 @@
     return YES;
 }
 
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    
+    [[SWFileManager manager] moveFileToDocumentWithURL:url];
 
-- (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+    return YES;
+}
+
+- (void)applicationWillResignActive:(UIApplication *)application
+{
+    // 开启后台处理多媒体事件
+    [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
+    AVAudioSession *session = [AVAudioSession sharedInstance];
+    [session setActive:YES error:nil];
+    // 后台播放
+    [session setCategory:AVAudioSessionCategoryPlayback error:nil];
 }
 
 
